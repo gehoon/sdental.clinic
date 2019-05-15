@@ -1,5 +1,3 @@
-theme: jekyll-theme-cayman
-
 # Site settings
 title: 서울S치과의원
 email: gehoon@gmail.com
@@ -9,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  gehoon
 
 # Build settings
+#theme: jekyll-theme-cayman
 markdown: kramdown
 
 include: ['_pages']
