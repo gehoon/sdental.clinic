@@ -4,10 +4,10 @@ email: gehoon@gmail.com
 logo: SNU_BL_xs.png
 description: 서울S치과의원
 baseurl: "" # the subpath of your site, e.g. /blog
-github_username:  gehoon
+github_username: gehoon
 
 # Build settings
-#theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 markdown: kramdown
 
-include: ['_pages']
+#include: ['_pages']
