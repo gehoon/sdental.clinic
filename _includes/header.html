@@ -11,21 +11,38 @@
 
   <div class="collapse navbar-collapse" id="navMenuBar">
     <ul class="navbar-nav ml-auto">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}{% if my_page.language == page.language %}
-          {% assign pageUrlBase = my_page.url | split: "/" | last %}
-          {% if page.categories %}
-            {% for category in page.categories %}
-              {% assign category_downcase = category|downcase %}
-              {% if pageUrlBase == category_downcase  %}<li class="current">{% else %}<li>{% endif %}
-            {% endfor %}
-          {% else %}<li>
+      {% assign menuBar1 = site.pages | group_by: 'category1' | uniq %}
+      {% for menu1 in menuBar1 %}{% if menu1.name != "" %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navMenuBar1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{ menu1.name }}</a>
+        <ul class="dropdown-menu" id="navMenuBar2" aria-labelledby="navbarDropdown">
+          {% assign menuBar2 = menu1.items | group_by: 'category2' | uniq %}
+          {% for menu2 in menuBar2 %}
+          {% assign menuBar3 = menu2.items | group_by: 'category3' | uniq %}
+
+          {% for thispage in site.pages reversed %}{% if thispage.category2 == menu2.name %}{% assign thepage = thispage %}
+          {% endif %}{% endfor %}
+
+          {% if menuBar3.size > 1 %}
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="{{thepage.url}}">{{ menu2.name}}</a>
+            <ul class="dropdown-menu">
+              {% for menu3 in menuBar3 %}
+                {% for thispage in site.pages  %}{% if thispage.category3 == menu3.name %}
+                <a class="dropdown-item" href="{{thispage.url}}" role="button" data-toggle="dropdown3">{{menu3.name}}</a>
+                {% endif %}{% endfor %}
+              {% endfor %}
+            </ul>
+          </li>
+          {% else %}
+          <li class="dropdown">
+            <a class="dropdown-item" href="{{thepage.url}}">{{menu2.name}}</a>
+          </li>
           {% endif %}
-          <a class="nav-link" href="{{site.url}}/{% if page.language %}{{ page.language }}/{% endif %}{{ pageUrlBase }}">
-            <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.categories | capitalize }}
-          </a>
-        </li>
-        {% endif %}{% endif %}
+          {% endfor %}
+        </ul>
+      </li>
+      {% endif %}
       {% endfor %}
     </ul>
 

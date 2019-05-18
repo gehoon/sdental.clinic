@@ -1,14 +1,69 @@
 ---
 layout: default
 ---
-<article class="post">
+{% for p in site.pages %}{% if p.url == page.url %}
+{% assign pLv1 = site.pages | where: "category1", p.category1 %}
+{% assign pLv2 = pLv1 | where: "category2", p.category2 %}
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{{ pLv1[0].permalink }}">{{p.category1}}</a></li>
+    {% if p.category3 %}
+    <li class="breadcrumb-item"><a href="{{ pLv2[0].permalink }}">{{p.category2}}</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{p.category3}}</li>
+    {% else %}
+    <li class="breadcrumb-item active" aria-current="page">{{p.category2}}</li>
+    {% endif %}
+  </ol>
+</nav>
+{% endif %}{% endfor %}
 
-	<header class="post-header">
-		<h1 class="post-title">{{ page.title }}</h1>
-	</header>
+<div class="row">
+  <div class="col-md-3 sidebar">
+    <ul class="sidebar-menu">
+      {% assign pLv1 = site.pages | where: "category1", page.category1 %}
+      {% assign grLv2 = pLv1 | group_by: 'category2' | uniq %}
+      {% for p2 in grLv2 %}
+        {% assign grLv3 = p2.items | group_by: 'category3' | uniq %}
+        {% if grLv3.size > 1 %}
+        {% assign pLv2 = pLv1 | where: "category2", p2.name %}
+      <li class="sidebar-item sidebar-item--depth-0 sidebar-item--expanded sidebar-item--has-children">
+        <a class="sidebar-link" href="{{ pLv2[0].permalink }}">{{p2.name}}</a>
+      </li>
 
-	<div class="post-content">
-		{{ content }}
-	</div>
+      <ul class="sidebar-menu">
+        {% for p3 in grLv3 %}
+        {% for p in pLv1 %}{% if p.category3 == p3.name %}
+        <li class="sidebar-item sidebar-item--depth-1 {% if p.url == page.url %}sidebar-item--active">{% else %}">{% endif %}
+          <a class="sidebar-link" href={{ p.url }}>{{p3.name}}</a>
+        </li>
+        {% endif %}{% endfor %}
+      {% endfor %}
+      </ul>
+        {% else %}
+        {% for p in site.pages %}{% if p.category2 == p2.name %}
+      <li class="sidebar-item sidebar-item--depth-0 {% if p.url == page.url %}sidebar-item--active">{% else %}">{% endif %}
+        <a class="sidebar-link" href={{ p.url }}>{{p2.name}}</a>
+      </li>
+        {% endif %}{% endfor %}
 
-</article>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-md-9">
+    <article class="post">
+
+    	<header class="post-header">
+    		<h1 class="post-title">{{ page.title }}</h1>
+    	</header>
+
+
+    </article>
+
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>

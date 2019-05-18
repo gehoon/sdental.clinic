@@ -28,6 +28,136 @@ a {
     }
 }
 
+.staff {
+	background-color: $Grey50;
+    .person {
+    	.personCard {
+            box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+            -webkit-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+            -moz-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+            border-collapse: separate;
+            .portrait { background-color: white;}
+            .info {
+                background-color: #F3F3F3;
+                code {
+                    color: $periwinkle; background-color: $cerulean;
+                    text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+                }
+            }
+        }
+    }
+}
+
+#history {
+	.decade {
+		background-color: $text-color; //$background-color;
+		color: white; //$text-color;
+        -webkit-box-shadow: 1px 1px 10px #333;
+        -moz-box-shadow: 1px 1px 10px #333;
+        box-shadow: 1px 1px 10px #333;
+		.decade-separator {
+			color: $unmelllow-yellow;
+		}
+		.authors { color: orange; }
+        .title {
+            a {
+                color: $cornflower;
+                &:hover { color: $cerulean; }
+            }
+        }
+    }
+}
+
+
+#history {
+    .annual {
+        //border-color: $Behr17-17;
+        @media screen and (max-width: $sm) {
+          margin-left: 0em;
+          margin-right: 0;
+        }
+        .year-separator {
+          color: $MacGrey;
+          background-color: $Behr17-17;
+          @media screen and (max-width: $sm) {
+            color: white;
+            border-color: $Grey50;
+            &.header { display:none; }
+          }
+        }
+        .month-separator {
+            color: $MacGrey;
+            border-color: $Grey50;
+            background-color: $Behr17-17;
+        }
+        .promotion {
+            box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+            -webkit-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+            -moz-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+            color: $Behr17-17;
+            //background-color: $Behr17-17;
+            background-color: transparent;
+            border-color: $Behr17-17;
+            .event {
+                background-color: white;
+                border-top-color: white;
+                border-left-color: white;
+                border-right-color: $Behr17-17;
+                .event_note { background-color: $grey-light; }
+            }
+        }
+        .student {
+            color: $Behr17-17;
+            //background-color: $Behr17-17;
+            background-color: transparent;
+            border-color: $Behr17-17;
+            .event {
+              .MS, .PhD {
+                border-top-color: white;
+                border-left-color: white;
+                border-right-color: black;
+                border-bottom-color: black;
+                box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+                -webkit-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+                -moz-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
+              }
+              .MS {
+                  color: $SatinBlack;
+                  background-color: $SilverStone;
+                  &.grad {
+                    color: silver;
+                    background-color: $BlackBoudoir;
+                  }
+              }
+              .PhD {
+                  color: black;
+                  background-color: $SilverStone;
+                  &.grad {
+                    color: gold;
+                    background-color: $BlackBoudoir;
+                  }
+              }
+            }
+        }
+    }
+  table {
+    text-align: center;
+    thead {
+      color: $jungle-green;
+      background-color: $Behr17-17;
+      .name {width: 4em;}
+    }
+    tbody {
+      color: $cornflower;
+      td {
+        border-style: solid;
+        border-width: thin;
+        border-color: $Behr17-17;
+      }
+    }
+  }
+}
+
 #content {
 	a:current {color: #194683;}
 	a.nonexistent:visited,
@@ -46,36 +176,6 @@ article {
             text-shadow: 1px 1px 1px rgba(125,125,125,.5);
             //min-width: none; width: none;
             //padding: 5px;
-        }
-    }
-}
-
-.members {
-	background-color: $Grey50; //#F0F0F0;
-    /*background: rgba(238,238,238,$alpha);
-	background: -moz-linear-gradient(top, rgb(138,138,138) 0%, rgb(155,155,155) 28%, rgb(138,138,138) 80%, rgb(125,125,125) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgb(138,138,138)), color-stop(28%, rgb(155,155,155)), color-stop(80%, rgb(138,138,138)), color-stop(100%, rgb(125,125,125)));
-	background: -webkit-linear-gradient(top, rgb(138,138,138) 0%, rgb(155,155,155) 28%, rgb(138,138,138) 80%, rgb(125,125,125) 100%);
-	background: -o-linear-gradient(top, rgb(138,138,138) 0%, rgb(155,155,155) 28%, rgb(138,138,138) 80%, rgb(125,125,125) 100%);
-	background: -ms-linear-gradient(top, rgb(138,138,138) 0%, rgb(155,155,155) 28%, rgb(138,138,138) 80%, rgb(125,125,125) 100%);
-	background: linear-gradient(to bottom, rgb(138,138,138) 0%, rgb(155,155,155) 28%, rgb(138,138,138) 80%, rgb(125,125,125) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee', GradientType=0 );*/
-    .person {
-    	.personCard {
-            box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
-            -webkit-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
-            -moz-box-shadow: 0 2px 10px rgba(25, 25, 25, $alpha);
-            border-collapse: separate;
-            .portrait { background-color: white;}
-            .info {
-                background-color: #F3F3F3;
-                .description {
-                    code {
-                        color: $periwinkle; background-color: $cerulean;
-                        text-shadow: 1px 1px 1px rgba(0,0,0,.5);
-                    }
-                }
-            }
         }
     }
 }
@@ -182,4 +282,25 @@ strong.highlight {
 }
 .error {
     color: #a94442;
+}
+
+.gcButton {
+  -webkit-transition-property:background-color, border-color, color, -webkit-box-shadow;
+  transition-property:background-color, border-color, color, -webkit-box-shadow;
+  transition-property:background-color, border-color, box-shadow, color;
+  transition-property:background-color, border-color, box-shadow, color, -webkit-box-shadow;
+  -webkit-box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+  box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+  background-color:#5c6ac4;
+  color:#ffffff;
+  border-color:transparent;
+  &:hover {
+    -webkit-box-shadow:0 5px 25px 0 rgba(0,0,0,0.25);
+    box-shadow:0 5px 25px 0 rgba(0,0,0,0.25);
+  }
+  &:focus {
+    background-color:rgba(0,150,255,0.925);
+    -webkit-box-shadow:0 0 0.1875em 0.1875em rgba(92,106,196,0.5);
+    box-shadow:0 0 0.1875em 0.1875em rgba(92,106,196,0.5);
+  }
 }

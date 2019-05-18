@@ -166,31 +166,6 @@ pre {
     }
 }
 
-
-
-/**
- * Wrapper
- */
- /*
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-*/
-
-
 /**
  * Clearfix
  */
@@ -402,3 +377,8 @@ dd {
 .hr4 {border-top-width: 5pt;}
 .hr5 {border-top-width: 6pt;}
 .hr6 {border-top-width: 7pt;}
+
+.breadcrumb-item + .breadcrumb-item::before {
+   color: green;
+   content: quote(">");
+}
