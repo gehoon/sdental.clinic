@@ -13,12 +13,11 @@ published: true
 
 <div class="col-12">
   <ul>
-  <li><a href="http://kko.to/pq9Y9r00H" target="_blank">서울 송파구 올림픽로 119 (잠실동 19-9)</a></li>
+  <li>서울 송파구 올림픽로 119 (잠실동 19-9) <div class="btn-group btn-group-sm" role="group"><a href="http://kko.to/pq9Y9r00H" target="_blank"><button>다음</button></a> <a href="http://naver.me/GhtovIuK" target="_blank"><button>네이버</button></a></div></li>
   <li>잠실 엘스상가 (파인애플) 4층</li>
   <li>02-2202-7528</li>
   </ul>
 </div>
-
 
 <div class="col-12">
 
