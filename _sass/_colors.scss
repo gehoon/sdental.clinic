@@ -28,6 +28,12 @@ a {
     }
 }
 
+.hours {
+  border-color: $white-dark;
+  .rowColor1 { background-color: white}
+  .rowColor2 { background-color: $white-dark}
+}
+
 .staff {
 	background-color: $Grey50;
     .person {

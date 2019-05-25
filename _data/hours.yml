@@ -1,0 +1,31 @@
+- day: 월
+  morning: "10 am ~ 1 pm"
+  afternoon: "2 pm ~ 7 pm"
+
+- day: 화
+  morning: "10 am ~ 1 pm"
+  afternoon: "2 pm ~ 9 pm"
+
+- day: 수
+  morning: "10 am ~ 1 pm"
+  afternoon: "2 pm ~ 7 pm"
+
+- day: 목
+  morning: "휴무"
+  afternoon: "휴무"
+
+- day: 금
+  morning: "10 am ~ 1 pm"
+  afternoon: "2 pm ~ 7 pm"
+
+- day: 토
+  morning: "10 am ~ 1 pm"
+  afternoon: "2 pm ~ 4 pm"
+
+- day: 일
+  morning: "휴무"
+  afternoon: "휴무"
+
+- day: 공휴일
+  morning: "휴무"
+  afternoon: "휴무"

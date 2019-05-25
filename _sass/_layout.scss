@@ -54,6 +54,26 @@
   }
 }
 
+.hours {
+  text-align: center;
+  border-style: solid;
+  border-width: 1;
+  .header {
+    font-weight: bold;
+  }
+  .row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+}
+
+#parking {
+  iframe {
+    height: 100%;
+    max-width:100%;
+  }
+}
+
 .staff {
     @media screen and (max-width: 767px) { margin-right: 0.5em; margin-left: 0.5em; }
     @media screen and (max-width: 480px) { margin-right: 0em; margin-left: 0em; }

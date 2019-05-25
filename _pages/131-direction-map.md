@@ -1,30 +1,26 @@
 ---
 layout: page
-title: 서울S치과의원
+title: 서울S치과의원 위치
 permalink: /map/
-category1: 찾아가기
-category2: 지도
----
+category1: 치과소개
+category2: 찾아가기
+category3: 지도
+published: true
 
+---
 <div class="row d-flex justify-content-center" id="info">
 
-<div class="col-6">
-<ul>
-<li><a href="http://kko.to/pq9Y9r00H" target="_blank">서울 송파구 올림픽로 119 (잠실동 19-9)</a></li>
-<li>잠실파인애플상가 4층</li>
-<li>02-2202-7528</li>
-</ul>
+
+<div class="col-12">
+  <ul>
+  <li><a href="http://kko.to/pq9Y9r00H" target="_blank">서울 송파구 올림픽로 119 (잠실동 19-9)</a></li>
+  <li>잠실 엘스상가 (파인애플) 4층</li>
+  <li>02-2202-7528</li>
+  </ul>
 </div>
 
-<div class="col-6">
-<ul>진료시간
-<li>월,수,목,금 10:00 ~ 19:00</li>
-<li>화 10:00 ~ 21:00 (야간진료)</li>
-<li>토 10:00 ~ 16:00</li>
-<li>월~토 점심시간 13:00 ~ 14:00</li>
-<li>일요일, 공휴일 휴무</li>
-</ul>
-</div>
+
+<div class="col-12">
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
@@ -40,10 +36,9 @@ category2: 지도
 <script charset="UTF-8">
 	new daum.roughmap.Lander({
 		"timestamp" : "1558183712105",
-		"key" : "tj5c",
-		"mapWidth" : "800",
-		"mapHeight" : "360"
+		"key" : "tj5c"
 	}).render();
 </script>
 
+</div>
 </div>
