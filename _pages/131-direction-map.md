@@ -34,6 +34,7 @@ published: true
 	new daum.roughmap.Lander({
 		"timestamp" : "1558183712105",
 		"key" : "tj5c",
+    "mapWidth" : "400",
     "mapHeight" : "250"
 	}).render();
 </script>
