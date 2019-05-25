@@ -2,11 +2,9 @@
 layout: page
 title: 서울S치과의원 진료안내
 permalink: /info/
-category1: 치과소개
-category2: 진료안내
+category1: 진료안내
 frontpage: true
 ---
-
 
 <h4>예약/문의</h4>
 <i style="width: 1.5em;" class="fa fa-phone"></i><a href="tel:+82222027528">02-2202-7528</a>

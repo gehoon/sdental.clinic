@@ -2,9 +2,8 @@
 layout: page
 title: 서울S치과의원 위치
 permalink: /map/
-category1: 치과소개
-category2: 찾아가기
-category3: 지도
+category1: 찾아가기
+category2: 지도
 published: true
 
 ---

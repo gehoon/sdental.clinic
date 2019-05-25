@@ -2,8 +2,7 @@
 layout: page
 title: 서울S치과의원 찾아가기
 permalink: /direction/
-category1: 치과소개
-category2: 찾아가기
+category1: 찾아가기
 ---
 
 <div class="row d-flex justify-content-center" id="info">
