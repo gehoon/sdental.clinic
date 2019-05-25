@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 서울S치과의원
+title: 의료진
 permalink: /dentist/
 category1: 진료안내
 category2: 의료진
