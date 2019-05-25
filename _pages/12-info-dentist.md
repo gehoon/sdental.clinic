@@ -7,20 +7,35 @@ category2: 의료진
 published: true
 frontpage: true
 ---
+<div id="dentist">
 
-<div class="row d-flex justify-content-center" id="dentist">
-
+<div class="row">
 {% for person in site.data.dentist %}
 
-<div class="card">
-  <img src="{% if person.portrait %}{{site.url}}/img/{{ person.portrait}}{% elsif person.extportrait %}{{ person.extportrait }}{% else %}{{site.url}}/img/anonymous.jpg{% endif %}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">{{ person.name}} {{ person.jobtitle}}</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="col-12 person">
+    <div class="card">
+      <div class="card-body">
+        <div class="portrait" >
+            <img onclick="window.open('{{ person.link }}');" src="{% if person.portrait %}{{site.url}}/img/{{ person.portrait}}{% elsif person.extportrait %}{{ person.extportrait }}{% else %}{{site.url}}/img/anonymous.jpg{% endif %}">
+        </div>
+        <div class="info">
+          <h5 class="card-title">{{ person.name}} {{ person.jobtitle}}</h5>
+          <p class="card-text">{{ person.specialty }}</p>
+          <ul>
+          {% for item in person.school %}
+          <li>{{ item }}</li>
+          {% endfor %}
+          </ul>
+          <ul>
+          {% for item in person.cv %}
+          <li>{{ item }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
 {% endfor %}
+</div>
 
 </div>

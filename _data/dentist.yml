@@ -1,14 +1,55 @@
 - name: 장준호
   degree: 교정과 전문의
   role: 교정
-  jobtitle: 원장
+  jobtitle: 교정과 원장
+  specialty: 치아교정
+  portrait: jhjang.jpg
+  link: http://www.sorthodontic.com/m2/m2_s1.php
+  school:
+  - 서울대학교 치과대학 졸업
+  - 서울대학교 치과대학원 석,박사
+  - 서울대학교 치과병원 치과교정과 인턴
+  - 서울대학교 치과병원 치과교정과 레지던트
+  - 서울대학교 치과병원 치과교정과 전임의
+  - 서울대학교 치과병원 치과교정과 임상강사
+  - 서울대학교 치과병원 치과교정과 임상지도전문의
+  cv:
+  - 치과교정과 전문의
+  - 대한치과교정학회 정회원
+  - 미국치과교정학회 정회원
+  - 세계치과교정학회 정회원
 
 - name: 최은정
   degree: 소아치과 전문의
   role: 소아환자
-  jobtitle: 원장
+  jobtitle: 소아치과 원장
+  specialty: 소아환자
+  portrait: ejchoi.jpg
+  link: http://www.sorthodontic.com/m2/m2_s3.php
+  school:
+  - 서울대학교 치과대학 졸업
+  - 서울대학교 치과대학원 석,박사
+  - 서울대학교 치과병원 소아치과 인턴
+  - 서울대학교 치과병원 소아치과 레지던트
+  - 서울대학교 치과병원 소아치과 임상강사
+  cv:
+  - 소아치과 전문의
+  - 대한소아치과학회 정회원
+  - 대한마취과학회 정회원
+  - 미국소아치과학회 정회원
+  - 세계소아치과학회 정회원
+  - 서울대학교 치과병원 우수논문상
 
 - name: 김현수
   degree: 치과보존과 전문의
   role: 일반진료
-  jobtitle: 원장
+  jobtitle: 보존과 원장
+  specialty: 신경치료, 치주치료, 보철, 임플란트
+  school:
+  - 서울대학교 치과대학 졸업
+  - 서울대학교 치과병원 치과보존과 인턴
+  - 서울대학교 치과병원 치과보존과 레지던트
+  - 서울대학교 치과대학 치과보존학 박사수료
+  cv:
+  - 치과보존과 전문의
+  - 미국 University of Pennsylvania 치과대학 외래강사
