@@ -3,6 +3,7 @@ layout: page
 title: 서울S치과의원 진료안내
 permalink: /info/
 category1: 진료안내
+category2: 진료안내
 frontpage: true
 ---
 

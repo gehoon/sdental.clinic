@@ -75,6 +75,13 @@
   }
 }
 
+#dentist {
+  .card {
+    margin-bottom: 1em;
+    .card-img-top {width: 150px;}
+  }
+}
+
 .staff {
     @media screen and (max-width: 767px) { margin-right: 0.5em; margin-left: 0.5em; }
     @media screen and (max-width: 480px) { margin-right: 0em; margin-left: 0em; }

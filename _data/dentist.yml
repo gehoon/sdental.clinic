@@ -1,0 +1,14 @@
+- name: 장준호
+  degree: 교정과 전문의
+  role: 교정
+  jobtitle: 원장
+
+- name: 최은정
+  degree: 소아치과 전문의
+  role: 소아환자
+  jobtitle: 원장
+
+- name: 김현수
+  degree: 치과보존과 전문의
+  role: 일반진료
+  jobtitle: 원장
