@@ -82,8 +82,13 @@
   }
 }
 
-.root_daum_roughmap_landing1 {
-  height: 30px;
+.address {
+  margin-left: 0;
+  li {
+    list-style-type: none;
+    margin-bottom: 0.3em;
+    button {margin-top: -0.3em; margin-bottom: -0.3em;}
+  }
 }
 
 .staff {
