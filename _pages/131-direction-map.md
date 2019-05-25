@@ -7,8 +7,7 @@ category2: 지도
 published: true
 
 ---
-<div class="row d-flex justify-content-center" id="info">
-
+<div class="row d-flex justify-content-center">
 
 <div class="col-12">
   <ul>
@@ -34,7 +33,8 @@ published: true
 <script charset="UTF-8">
 	new daum.roughmap.Lander({
 		"timestamp" : "1558183712105",
-		"key" : "tj5c"
+		"key" : "tj5c",
+    "mapHeight" : "250"
 	}).render();
 </script>
 

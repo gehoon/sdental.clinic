@@ -67,6 +67,13 @@
   }
 }
 
+#dentist {
+  .card {
+    margin-bottom: 1em;
+    .card-img-top {width: 150px;}
+  }
+}
+
 #parking {
   margin-bottom: 1em;
   iframe {
@@ -75,11 +82,8 @@
   }
 }
 
-#dentist {
-  .card {
-    margin-bottom: 1em;
-    .card-img-top {width: 150px;}
-  }
+.root_daum_roughmap_landing1 {
+  height: 30px;
 }
 
 .staff {
