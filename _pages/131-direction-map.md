@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 서울S치과의원 위치
+title: 서울S치과 위치
 permalink: /map/
 category1: 찾아가기
 category2: 지도
