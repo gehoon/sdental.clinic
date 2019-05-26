@@ -6,6 +6,8 @@ category1: 진료안내
 category2: 진료안내
 frontpage: true
 ---
+<p>서울S치과는 <b>서울대학교 치과병원</b> 협력의료기관입니다.<BR>
+서울대학교 치과대학을 졸업하고 서울대학교 치과병원에서 수련을 마친 보건복지부 인증 전문의가 최상의 진료를 합니다.</p>
 <h4>진료시간</h4>
 <div class="row hours">
 <div class="col-12">
@@ -35,8 +37,8 @@ frontpage: true
 
 <h4>예약/문의</h4>
 
-<p>예약을 하고 오시면 대기시간이 짧아집니다.</p>
-<p><i style="width: 1.5em;" class="fa fa-phone"></i><a href="tel:+82222027528">02-2202-7528</a></p>
+<p>서울S치과 방문 전 예약을 하시면 대기시간이 짧아집니다.</p>
+<p><i style="width: 1.5em;" class="fa fa-phone"></i><a href="tel:+82222027528">02-2202-7528</a> | <i style="width: 1.5em;" class="fa fa-fax"></i><a href="tel:+82222027527">02-2202-7527</a></p>
 
 <img src="http://www.sorthodontic.com/image/m1_s3_img1.gif">
 <img src="http://www.sorthodontic.com/image/m1_s3_img2.gif">
