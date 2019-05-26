@@ -14,7 +14,7 @@
       {% assign menuBar1 = site.pages | group_by: 'category1' | uniq %}
       {% for menu1 in menuBar1 %}{% if menu1.name != "" %}
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navMenuBar1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="{{ menu1.items[0].permalink }}" role="button" id="navMenuBar1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {{ menu1.name }}</a>
         <ul class="dropdown-menu" id="navMenuBar2" aria-labelledby="navbarDropdown">
           {% assign menuBar2 = menu1.items | group_by: 'category2' | uniq %}
