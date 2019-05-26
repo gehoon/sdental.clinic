@@ -13,7 +13,8 @@ published: true
   <ul class="address">
     <li>서울 송파구 올림픽로 119 (잠실동 19-9)</li>
     <li>잠실 엘스상가 (파인애플) 4층 <div class="btn-group btn-group-sm" role="group"><a href="http://kko.to/pq9Y9r00H" target="_blank"><button>다음</button></a> <a href="http://naver.me/GhtovIuK" target="_blank"><button>네이버</button></a></div></li>
-    <li><i style="width: 1.5em;" class="fa fa-phone"></i><a href="tel:+82222027528">02-2202-7528</a></li>
+    <li><i style="width: 1.5em;" class="fa fa-phone"></i><a href="tel:+82222027528">02-2202-7528</a> / <i style="width: 1.5em;" class="fa fa-fax"></i><a href="tel:+82222027527">02-2202-7527</a></li>
+    <li>지하철 이용: 2호선 잠실새내역(신천역) 5번출구 연결 파인애플(엘스) 상가 4층</li>
   </ul>
 </div>
 

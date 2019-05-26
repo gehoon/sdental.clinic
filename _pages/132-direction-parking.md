@@ -10,8 +10,12 @@ frontpage: true
 
 <div class="row d-flex justify-content-center" id="parking">
   <div class="col-12">
-  <li>주차장 입구는 잠실엘스 단지 내부에 있습니다.</li>
-  <li>진료 확인 도장이 있으면 1시간 무료입니다.</li>
+  <ol>
+    <li>주차장 입구는 잠실엘스 단지 내부에 있습니다.</li>
+    <li>잠실1단지와 2단지 사이길로 150m 주행 후 잠실1단지(엘스) 주출입구로 진입</li>
+    <li>지하주차장 옆길로 진행 후 차단기가 없는 우측 길로 진입</li>
+    <li>진료 확인 도장이 있으면 1시간 무료입니다.</li>
+  </ol>
   <p></p>
   </div>
 
