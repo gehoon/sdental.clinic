@@ -38,7 +38,7 @@ frontpage: true
 <h4>예약/문의</h4>
 
 <p>서울S치과 방문 전 예약을 하시면 대기시간이 짧아집니다.</p>
-<p><i style="width: 1.5em;" class="fa fa-phone"></i><a href="tel:+82222027528">02-2202-7528</a> | <i style="width: 1.5em;" class="fa fa-fax"></i><a href="tel:+82222027527">02-2202-7527</a></p>
+<p><i style="width: 1.5em;" class="fa fa-phone"></i><a href="tel:+82222027528">02-2202-7528</a><a href="tel:+82222027529">~9</a> | <i style="width: 1.5em;" class="fa fa-fax"></i><a href="tel:+82222027527">02-2202-7527</a></p>
 
 <img src="http://www.sorthodontic.com/image/m1_s3_img1.gif">
 <img src="http://www.sorthodontic.com/image/m1_s3_img2.gif">
