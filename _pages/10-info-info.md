@@ -22,7 +22,7 @@ frontpage: true
 
   <div class="col-2">{{ day.day }}</div>
   {% if day.day contains "목" or day.day contains "일" %}
-  <div class="col-10">휴무</div>
+  <div class="col-10">휴진</div>
   {% else %}
   <div class="col-5 morning">{{ day.morning }}</div>
   <div class="col-5 afternoon">{{day.afternoon}}</div>
