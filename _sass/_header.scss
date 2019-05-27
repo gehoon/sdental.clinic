@@ -62,12 +62,15 @@ $header-height: 38px;
       }
     }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: $md - 1) {
   flex-wrap: nowrap;
   .container {
     padding: 0 0.5em;
     z-index: 101;
-    .navbar-brand-wrapper {margin: auto;}
+    .navbar-brand-wrapper {
+      margin: auto;
+      padding-left: $navbar-height;
+    }
     .navbar-collapse {
       position: absolute;
       right: 0px;
