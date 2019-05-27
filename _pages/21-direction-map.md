@@ -47,7 +47,7 @@ published: true
 		"timestamp" : "1558183712105",
 		"key" : "tj5c",
     "mapWidth" : currentMapWidth,
-    "mapHeight" : "250"
+    "mapHeight" : "230"
 	}).render();
 </script>
 
