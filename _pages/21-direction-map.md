@@ -32,10 +32,21 @@ published: true
 
 <!-- 3. 실행 스크립트 -->
 <script charset="UTF-8">
+  if (document.documentElement.clientWidth <= 364) {
+  	currentMapWidth = "320"
+  } else if (document.documentElement.clientWidth <= 480) {
+    currentMapWidth = "345"
+  } else if (document.documentElement.clientWidth <= 576) {
+    currentMapWidth = "460"
+  } else if (document.documentElement.clientWidth <= 992) {
+    currentMapWidth = "530"
+  } else {
+    currentMapWidth = "650"    
+  }
 	new daum.roughmap.Lander({
 		"timestamp" : "1558183712105",
 		"key" : "tj5c",
-    "mapWidth" : "350",
+    "mapWidth" : currentMapWidth,
     "mapHeight" : "250"
 	}).render();
 </script>
