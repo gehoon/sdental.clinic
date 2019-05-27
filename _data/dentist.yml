@@ -2,7 +2,7 @@
   degree: 교정과 전문의
   role: 교정
   jobtitle: 교정과 원장
-  specialty: 치아교정
+  specialty: 교정클리닉
   portrait: jhjang.jpg
   link: http://www.sorthodontic.com/m2/m2_s1.php
   school:
@@ -23,7 +23,7 @@
   degree: 소아치과 전문의
   role: 소아환자
   jobtitle: 소아치과 원장
-  specialty: 소아환자
+  specialty: 소아청소년클리닉
   portrait: ejchoi.jpg
   link: http://www.sorthodontic.com/m2/m2_s3.php
   school:
@@ -44,7 +44,7 @@
   degree: 치과보존과 전문의
   role: 일반진료
   jobtitle: 보존과 원장
-  specialty: 신경치료, 치주치료, 보철, 임플란트
+  specialty: 보존치료, 신경치료, 치주치료, 보철, 임플란트클리닉
   school:
   - 서울대학교 치과대학 졸업
   - 서울대학교 치과병원 치과보존과 인턴
