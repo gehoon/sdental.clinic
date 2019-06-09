@@ -2,6 +2,8 @@
    outbox
 ===========================================================*/
 
+#banner {padding:0;}
+
 #outbox {
     position: relative; /* child elements are relative to this */
     min-height: 100%;
@@ -92,7 +94,7 @@
       img {
           display: block;
           border-radius: 6px;
-          height: 11em;
+          //height: 11em;
           width: 11em;
           margin: 0.3em auto;
           object-fit: cover;
