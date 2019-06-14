@@ -3,7 +3,7 @@ layout: default
 description: 서울S치과의원
 ---
 
-<div id="home">
+<div id="home" class="mb-2">
 	<header>
 		<h1>서울S치과의원</h1>
 	</header>
@@ -18,8 +18,6 @@ description: 서울S치과의원
   <div class="post-content" >
   </div>
 
-</div>
-
 {% for page in site.pages %}
 {% if page.frontpage %}
 <a href="{{page.url}}">
@@ -27,3 +25,5 @@ description: 서울S치과의원
 </a>
 {% endif %}
 {% endfor %}
+
+</div>
