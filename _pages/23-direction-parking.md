@@ -3,7 +3,7 @@ layout: page
 title: 서울S치과 주차장 이용방법
 permalink: /parking/
 category1: 찾아가기
-category2: 주차장으로
+category2: 주차장
 frontpage: true
 
 ---

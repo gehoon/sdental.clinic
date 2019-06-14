@@ -5,6 +5,7 @@ permalink: /metro/
 category1: 찾아가기
 category2: 잠실새내역에서
 published: true
+frontpage: true
 ---
 
 <div id="info">
