@@ -23,7 +23,7 @@ description: 서울S치과의원
 {% for page in site.pages %}
 {% if page.frontpage %}
 <a href="{{page.url}}">
-<button type="button" class="btn btn-primary btn-lg">{% if page.category3 %}{{ page.category3 }}{% elsif page.category2 %}{{ page.category2 }}{% else %}{{ page.category1 }}{% endif %}</button>
+<button type="button" class="btn btn-primary btn-lg m-1">{% if page.category3 %}{{ page.category3 }}{% elsif page.category2 %}{{ page.category2 }}{% else %}{{ page.category1 }}{% endif %}</button>
 </a>
 {% endif %}
 {% endfor %}
