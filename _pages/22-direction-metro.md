@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 잠실새내역에서 서울S치과 가는 법
+title: 잠실새내역 → 서울S치과 가기
 permalink: /metro/
 category1: 찾아가기
 category2: 잠실새내역에서
