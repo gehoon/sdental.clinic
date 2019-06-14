@@ -22,7 +22,7 @@ published: true
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
-<div id="daumRoughmapContainer1558183712105" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+<div id="daumRoughmapContainer1558183712105" class="root_daum_roughmap root_daum_roughmap_landing shadow"></div>
 
 <!--
 	2. 설치 스크립트

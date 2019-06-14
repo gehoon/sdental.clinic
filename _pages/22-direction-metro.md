@@ -11,9 +11,13 @@ frontpage: true
 <div id="info">
 
 {% for item in site.data.direction %}
-<div class="row">
-<div class="col-lg-4">{{ forloop.index }}. {{item.caption}}</div>
-<div class="col-lg-8 p-2 mb-5 d-flex justify-content-center"><img src="{{site.url}}/img/{{item.photo}}"></div>
+<div class="card mb-3">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-lg-8 p-2 d-flex justify-content-center"><img class="shadow" src="{{site.url}}/img/{{item.photo}}"></div>
+      <div class="col-lg-4 mb-4 ">{{ forloop.index }}. {{item.caption}}</div>
+    </div>
+  </div>
 </div>
 {% endfor %}
 

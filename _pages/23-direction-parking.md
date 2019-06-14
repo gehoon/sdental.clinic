@@ -21,14 +21,14 @@ frontpage: true
 
   <div class="col-lg-6">
   <h5>삼전동/트리지움에서 접근시</h5>
-    <div class="embed-responsive embed-responsive-16by9">
+    <div class="embed-responsive embed-responsive-16by9 shadow">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Kd9KYYJEOxM?vq=hd720&modestbranding=1?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 
   <div class="col-lg-6">
   <h5>종합운동장에서 접근시</h5>
-    <div class="embed-responsive embed-responsive-16by9">
+    <div class="embed-responsive embed-responsive-16by9 shadow">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ot5acNl7bGw?vq=hd720&modestbranding=1?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
