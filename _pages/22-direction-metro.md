@@ -15,7 +15,7 @@ frontpage: true
   <div class="card-body">
     <div class="row">
       <div class="col-lg-8 p-2 "><img class="shadow" src="{{site.url}}/img/{{item.photo}}"></div>
-      <div class="col-lg-4 mb-4 ">{{ forloop.index }}. {{item.caption}}</div>
+      <div class="col-lg-4 pb-2 ">{{ forloop.index }}. {{item.caption}}</div>
     </div>
   </div>
 </div>
