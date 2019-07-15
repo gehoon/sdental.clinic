@@ -2,7 +2,7 @@
 layout: page
 title: 교정진단과 진료과정
 permalink: /orthodontic3/
-category1: 교정클리닉
+category1: 교정과
 category2: 교정진단과 진료과정
 frontpage: false
 ---

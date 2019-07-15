@@ -19,8 +19,8 @@
   afternoon: "2 pm ~ 7 pm"
 
 - day: 토
-  morning: "10 am ~ 1 pm"
-  afternoon: "2 pm ~ 4 pm"
+  morning: "9:30 am ~ 1 pm [교정과]<BR>10:00 am ~ 2 pm [보존보철과]"
+  afternoon: "2 pm ~ 4 pm [교정과]<BR>[보존보철과 휴진]"
 
 - day: 일
   morning: "휴무"

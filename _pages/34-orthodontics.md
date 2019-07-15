@@ -2,7 +2,7 @@
 layout: page
 title: 교정장치의 종류
 permalink: /orthodontic4/
-category1: 교정클리닉
+category1: 교정과
 category2: 교정장치의 종류
 frontpage: false
 ---

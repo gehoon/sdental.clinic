@@ -2,7 +2,7 @@
 layout: page
 title: 치아보존 진료
 permalink: /conservative/
-category1: 일반클리닉
+category1: 보존/보철과
 category2: 보존진료
 frontpage: false
 ---

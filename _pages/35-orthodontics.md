@@ -2,7 +2,7 @@
 layout: page
 title: 서울S치과 치아교정프로그램
 permalink: /orthodontic5/
-category1: 교정클리닉
+category1: 교정과
 category2: 치아교정프로그램
 frontpage: false
 ---

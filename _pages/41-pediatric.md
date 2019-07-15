@@ -2,7 +2,7 @@
 layout: page
 title: 소아/청소년클리닉 특징
 permalink: /pediatric1/
-category1: 소아청소년클리닉
+category1: 소아청소년과
 category2: 소아/청소년클리닉특징
 frontpage: false
 ---

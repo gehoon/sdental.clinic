@@ -2,7 +2,7 @@
 layout: page
 title: 교정이란?
 permalink: /orthodontic2/
-category1: 교정클리닉
+category1: 교정과
 category2: 교정이란?
 frontpage: false
 ---

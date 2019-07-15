@@ -2,7 +2,7 @@
 layout: page
 title: 임플란트 & 골이식
 permalink: /implant/
-category1: 일반클리닉
+category1: 보존/보철과
 category2: 임플란트&골이식
 frontpage: false
 ---

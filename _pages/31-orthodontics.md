@@ -2,7 +2,7 @@
 layout: page
 title: S교정클리닉의 특징
 permalink: /orthodontic1/
-category1: 교정클리닉
+category1: 교정과
 category2: S교정클리닉의 특징
 frontpage: false
 ---
