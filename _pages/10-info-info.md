@@ -12,20 +12,22 @@ frontpage: true
 <div class="row hours">
 <div class="col-12">
 <div class="row header {% cycle 'rowColor1', 'rowColor2' %}">
-  <div class="col-2">요일</div>
-  <div class="col-5">오전</div>
-  <div class="col-5">오후</div>
+  <div class="col-1">요일</div>
+  <div class="col-4">오전</div>
+  <div class="col-4">오후</div>
+  <div class="col-3">비고</div>
 </div>
 
 {% for day in site.data.hours %}
 <div class="row {% cycle 'rowColor1', 'rowColor2' %}">
 
-  <div class="col-2">{{ day.day }}</div>
+  <div class="col-1">{{ day.day }}</div>
   {% if day.day contains "목" or day.day contains "일" %}
   <div class="col-10">휴진</div>
   {% else %}
-  <div class="col-5 morning">{{ day.morning }}</div>
-  <div class="col-5 afternoon">{{day.afternoon}}</div>
+  <div class="col-4 morning">{{ day.morning }}</div>
+  <div class="col-4 afternoon">{{day.afternoon}}</div>
+  <div class="col-3 afternoon">{{day.memo}}</div>
   {% endif %}
 
 </div>
