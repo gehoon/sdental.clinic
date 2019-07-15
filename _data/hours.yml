@@ -6,9 +6,9 @@
   morning: "10 am ~ 1 pm"
   afternoon: "2 pm ~ 9 pm"
 
-- day: 수<BR>[소아진료 휴진]
-  morning: "10 am ~ 1 pm"
-  afternoon: "2 pm ~ 7 pm"
+- day: 수
+  morning: "10 am ~ 1 pm<BR>[소아진료 휴진]"
+  afternoon: "2 pm ~ 7 pm<BR>[소아진료 휴진]"
 
 - day: 목
   morning: "휴무"
