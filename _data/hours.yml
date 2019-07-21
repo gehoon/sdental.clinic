@@ -21,9 +21,8 @@
   afternoon: "2 pm ~ 7 pm"
 
 - day: 토
-  morning: "10 am ~ 1 pm<BR>10 am ~ 2 pm [보존보철과]"
+  morning: "9:30 am ~ 1 pm"
   afternoon: "2 pm ~ 4 pm"
-  memo: 보존보철과 오후 휴진
 
 - day: 일
   morning: "휴무"
