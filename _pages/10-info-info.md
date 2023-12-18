@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 서울S치과 진료안내
+title: 서울S수치과 진료안내
 permalink: /info/
 category1: 진료안내
 category2: 진료안내
