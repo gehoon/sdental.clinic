@@ -5,12 +5,11 @@
 - day: 화
   morning: "10 am ~ 1 pm"
   afternoon: "2 pm ~ 9 pm"
-  memo: 야간 연장진료
+  memo: "둘째, 넷째 화요일 오전 휴진"
 
 - day: 수
   morning: "10 am ~ 1 pm"
   afternoon: "2 pm ~ 7 pm"
-  memo: 소아진료 휴진
 
 - day: 목
   morning: "휴진"
@@ -21,8 +20,8 @@
   afternoon: "2 pm ~ 7 pm"
 
 - day: 토
-  morning: "9:30 am ~ 1 pm"
-  afternoon: "2 pm ~ 4 pm"
+  morning: "10 am ~ 12 pm"
+  afternoon: "12 pm ~ 2 pm"
 
 - day: 일
   morning: "휴무"
